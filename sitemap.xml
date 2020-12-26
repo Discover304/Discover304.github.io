@@ -2,63 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://discover304.github.io/2020/05/21/markdown_figure_practice/</loc>
+    <loc>http://discover304.github.io/2020/08/21/7-Windows-%E5%BE%AE%E7%97%9B%E8%BD%AC-Linux-%E4%B8%87%E4%B8%87%E6%B2%A1%E6%83%B3%E5%88%B0%E8%82%AF%E5%BE%B7%E5%9F%BA%E7%9A%84%E7%BD%91%E7%AB%9F%E7%84%B6%E8%BF%99%E4%B9%88%E5%A5%BD/</loc>
     
-    <lastmod>2020-12-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://discover304.github.io/2020/09/27/Distinguish-and-in-python/</loc>
-    
-    <lastmod>2020-09-27</lastmod>
+    <lastmod>2020-12-26</lastmod>
     
   </url>
   
   <url>
-    <loc>http://discover304.github.io/2020/08/08/%E3%80%8A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%AE%9E%E6%88%98%E3%80%8B%E7%B2%BE%E7%AE%80%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://discover304.github.io/link/index.html</loc>
     
-    <lastmod>2020-09-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://discover304.github.io/2020/07/19/%E8%87%AA%E5%8A%A8%E5%8C%96-%E7%88%AC%E5%8F%96%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93Re%EF%BC%9ADive%E5%AE%98%E6%96%B9%E5%8A%A8%E6%80%81/</loc>
-    
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-12-26</lastmod>
     
   </url>
   
   <url>
-    <loc>http://discover304.github.io/2020/07/05/%E7%88%AC%E5%8F%96%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93Re%EF%BC%9ADive%E5%AE%98%E6%96%B9%E5%8A%A8%E6%80%81/</loc>
+    <loc>http://discover304.github.io/about/index.html</loc>
     
-    <lastmod>2020-08-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://discover304.github.io/2020/08/21/%E5%9F%BA%E4%BA%8E-Github-%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    
-    <lastmod>2020-08-21</lastmod>
+    <lastmod>2020-12-26</lastmod>
     
   </url>
   
   <url>
-    <loc>http://discover304.github.io/2020/08/21/Windows-%E5%BE%AE%E7%97%9B%E8%BD%AC-Linux-%E4%B8%87%E4%B8%87%E6%B2%A1%E6%83%B3%E5%88%B0%E8%82%AF%E5%BE%B7%E5%9F%BA%E7%9A%84%E7%BD%91%E7%AB%9F%E7%84%B6%E8%BF%99%E4%B9%88%E5%A5%BD/</loc>
+    <loc>http://discover304.github.io/2020/08/08/8-%E3%80%8A%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%9F%BA%E7%A1%80%E5%8F%8A%E5%AE%9E%E6%88%98%E3%80%8B%E7%B2%BE%E7%AE%80%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-12-26</lastmod>
     
   </url>
   
   <url>
-    <loc>http://discover304.github.io/2020/05/21/this_is_my_first_blog/</loc>
+    <loc>http://discover304.github.io/2020/09/27/9-Distinguish-and-in-python/</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://discover304.github.io/2020/07/19/6-%E8%87%AA%E5%8A%A8%E5%8C%96-%E7%88%AC%E5%8F%96%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93Re%EF%BC%9ADive%E5%AE%98%E6%96%B9%E5%8A%A8%E6%80%81/</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://discover304.github.io/2020/07/05/5-%E7%88%AC%E5%8F%96%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93Re%EF%BC%9ADive%E5%AE%98%E6%96%B9%E5%8A%A8%E6%80%81/</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://discover304.github.io/2020/12/25/3-markdown_figure_practice/</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://discover304.github.io/2020/08/21/4-%E5%9F%BA%E4%BA%8E-Github-%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    
+    <lastmod>2020-12-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://discover304.github.io/2020/05/21/2-this_is_my_first_blog/</loc>
     
     <lastmod>2020-08-07</lastmod>
     
   </url>
   
   <url>
-    <loc>http://discover304.github.io/2020/05/20/hello-world/</loc>
+    <loc>http://discover304.github.io/2020/05/20/1-hello_world/</loc>
     
     <lastmod>2020-05-21</lastmod>
     
@@ -67,7 +81,7 @@
 
   <url>
     <loc>http://discover304.github.io/</loc>
-    <lastmod>2020-12-25</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,21 +89,21 @@
   
   <url>
     <loc>http://discover304.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2020-12-25</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://discover304.github.io/tags/%E7%BA%AA%E5%BF%B5/</loc>
-    <lastmod>2020-12-25</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://discover304.github.io/tags/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2020-12-25</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -98,14 +112,14 @@
   
   <url>
     <loc>http://discover304.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-12-25</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://discover304.github.io/categories/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2020-12-25</lastmod>
+    <lastmod>2020-12-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
