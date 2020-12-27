@@ -2934,9 +2934,6 @@ blockquote footer cite:before {
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
-#aside_content .card-categories .card-category-list > .parent > .child {
-  display: none;
-}
 #aside_content .card-webinfo .webinfo .webinfo-item {
   display: -webkit-box;
   display: -moz-box;
@@ -3199,10 +3196,12 @@ blockquote footer cite:before {
 }
 #post-comment .comment-head #comment-switch {
   display: inline-block;
-  vertical-align: middle;
-}
-#post-comment .comment-head #comment-switch > span {
-  display: none;
+  float: right;
+  margin: 0.1rem auto 0;
+  padding: 0.2rem 0.8rem;
+  width: max-content;
+  border-radius: 8px;
+  background: #f6f8fa;
 }
 #post-comment .comment-head #comment-switch .first-comment {
   color: #49b1f5;
@@ -4516,6 +4515,12 @@ _:future,
 #vcomment .vbtn:hover {
   background: var(--btn-hover-color);
 }
+#vcomment textarea {
+  background: url("/img/comment.jpg") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
+}
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -5532,6 +5537,9 @@ blockquote.pullquote.right {
 [data-theme='dark'] #article-container figure.highlight .highlight-tools {
   background: #1a1a1a !important;
   color: #90a4ae !important;
+}
+[data-theme='dark'] #post-comment #comment-switch {
+  background: #2c2c2c !important;
 }
 [data-theme='dark'] #post-comment #comment-switch .switch-btn {
   filter: brightness(0.8);
