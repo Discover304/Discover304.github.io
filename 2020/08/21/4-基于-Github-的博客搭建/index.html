@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
       appKey: 'MLgPQW5h0DPgE8jNkeREKubU',
       placeholder: 'Tell me more.',
       avatar: 'mp',
-      meta: 'nick,mail'.split(','),
+      meta: 'nick,mail,link'.split(','),
       pageSize: '10',
       lang: 'en',
       recordIP: false,
@@ -418,7 +418,7 @@ if ('Valine' === 'Gitalk' || !false) {
 
   newestCommentInit()
   document.addEventListener('pjax:complete', newestCommentInit)
-})</script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+})</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
   'title',
   '#config_change',
   '#body-wrap',
