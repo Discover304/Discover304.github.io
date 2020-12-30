@@ -4,6 +4,43 @@
   
     
     <entry>
+      <title>13-Xml-and-Json</title>
+      <link href="2020/12/30/13-xml-and-json/"/>
+      <url>2020/12/30/13-xml-and-json/</url>
+      
+        <content type="html"><![CDATA[<h2 id="写入-json-数据"><a class="markdownIt-Anchor" href="#写入-json-数据"></a> 写入 JSON 数据</h2><p>with open(‘data.json’, ‘w’) as f:<br />json.dump(data, f)</p><h2 id="读取数据"><a class="markdownIt-Anchor" href="#读取数据"></a> 读取数据</h2><p>with open(‘data.json’, ‘r’) as f:<br />data = json.load(f)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> NoteBook </category>
+          
+          <category> GeneralNote </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Python </tag>
+            
+            <tag> 对比 </tag>
+            
+            <tag> XML </tag>
+            
+            <tag> Json </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>怎样合理利用 Python 的 Package</title>
       <link href="2020/12/28/12-python-module-and-package/"/>
       <url>2020/12/28/12-python-module-and-package/</url>

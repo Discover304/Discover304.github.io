@@ -6,7 +6,7 @@
   <link href="http://discover304.github.io/atom.xml" rel="self"/>
   
   <link href="http://discover304.github.io/"/>
-  <updated>2020-12-28T15:20:02.556Z</updated>
+  <updated>2020-12-30T02:45:58.974Z</updated>
   <id>http://discover304.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>13-Xml-and-Json</title>
+    <link href="http://discover304.github.io/2020/12/30/13-xml-and-json/"/>
+    <id>http://discover304.github.io/2020/12/30/13-xml-and-json/</id>
+    <published>2020-12-30T02:42:25.000Z</published>
+    <updated>2020-12-30T02:45:58.974Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写入-json-数据"><a class="markdownIt-Anchor" href="#写入-json-数据"></a> 写入 JSON 数据</h2><p>with open(‘data.json’, ‘w’) as f:<br />json.dump(data, f)</p><h2 id="读取数据"><a class="markdownIt-Anchor" href="#读取数据"></a> 读取数据</h2><p>with open(‘data.json’, ‘r’) as f:<br />data = json.load(f)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;写入-json-数据&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#写入-json-数据&quot;&gt;&lt;/a&gt; 写入 JSON 数据&lt;/h2&gt;
+&lt;p&gt;with open(‘data.json’, ‘w’) as f:&lt;br /&gt;
+json.dum</summary>
+      
+    
+    
+    
+    <category term="NoteBook" scheme="http://discover304.github.io/categories/NoteBook/"/>
+    
+    <category term="GeneralNote" scheme="http://discover304.github.io/categories/NoteBook/GeneralNote/"/>
+    
+    
+    <category term="技术" scheme="http://discover304.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Python" scheme="http://discover304.github.io/tags/Python/"/>
+    
+    <category term="对比" scheme="http://discover304.github.io/tags/%E5%AF%B9%E6%AF%94/"/>
+    
+    <category term="XML" scheme="http://discover304.github.io/tags/XML/"/>
+    
+    <category term="Json" scheme="http://discover304.github.io/tags/Json/"/>
+    
+  </entry>
   
   <entry>
     <title>怎样合理利用 Python 的 Package</title>
