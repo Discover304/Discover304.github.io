@@ -6,7 +6,7 @@
   <link href="http://discover304.github.io/atom.xml" rel="self"/>
   
   <link href="http://discover304.github.io/"/>
-  <updated>2020-12-30T02:45:58.974Z</updated>
+  <updated>2020-12-30T02:46:09.978Z</updated>
   <id>http://discover304.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://discover304.github.io/2020/12/30/13-xml-and-json/"/>
     <id>http://discover304.github.io/2020/12/30/13-xml-and-json/</id>
     <published>2020-12-30T02:42:25.000Z</published>
-    <updated>2020-12-30T02:45:58.974Z</updated>
+    <updated>2020-12-30T02:46:09.978Z</updated>
     
     <content type="html"><![CDATA[<h2 id="写入-json-数据"><a class="markdownIt-Anchor" href="#写入-json-数据"></a> 写入 JSON 数据</h2><p>with open(‘data.json’, ‘w’) as f:<br />json.dump(data, f)</p><h2 id="读取数据"><a class="markdownIt-Anchor" href="#读取数据"></a> 读取数据</h2><p>with open(‘data.json’, ‘r’) as f:<br />data = json.load(f)</p>]]></content>
     
