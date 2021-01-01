@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>西湖大学对话评价-项目参考</title>
+      <link href="2021/01/01/16-%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E5%AF%B9%E8%AF%9D%E8%AF%84%E4%BB%B7-%E9%A1%B9%E7%9B%AE%E5%8F%82%E8%80%83/"/>
+      <url>2021/01/01/16-%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E5%AF%B9%E8%AF%9D%E8%AF%84%E4%BB%B7-%E9%A1%B9%E7%9B%AE%E5%8F%82%E8%80%83/</url>
+      
+        <content type="html"><![CDATA[<h2 id="项目概要"><a class="markdownIt-Anchor" href="#项目概要"></a> 项目概要</h2><h2 id="我的任务"><a class="markdownIt-Anchor" href="#我的任务"></a> 我的任务</h2><p>给 pred 进行打分，评分规则如下：</p><ol><li><p>打分区间都是0–3，0最差，3最好</p></li><li><p>“input”: 这个输入文本，有非常多的种类。</p></li><li><p>“gold”: 参考的解释，可以和 pred 比较得到分数。</p><ul><li>注意：gold只是一个参考，pred可以跟gold不同意思。</li></ul></li><li><p>“pred”: 预测出来的内容。</p></li><li><p>“hs_specificity”: 具体性，是否给出了具体的内容。</p><ul><li><strong>没有任何有价值的信息</strong>的给0，如I don’t know就可以给0。</li><li>有具体内容，但具体<strong>内容无意义</strong>的给1。</li><li>如果有表示<strong>具体事物</strong>的词给2。</li><li>2分档次特征<strong>出现次数大于2</strong>的都可以考虑给3。</li><li>注意：出现一些<strong>OOV可以看做是specificity的一种表现</strong>，比如 <code>I paid $ &lt;unk&gt; dollars already</code>。</li></ul></li><li><p>“hs_fluency”: pred 本身的属性，字面义，是否流畅。</p><ul><li>如果整体都很烂，尤其是<strong>有重复</strong>给0</li><li>如果有主要问题但整体上<strong>还算通顺</strong>给1。</li><li>基本流畅但有<strong>个别词的瑕疵</strong>一般给2。</li><li><strong>完全流畅</strong>的给3，比如I don’t know就给3。</li></ul></li><li><p>“hs_relatedness”: perd和input的相关性。</p><ul><li>完全<strong>无关</strong>的给0。</li><li><strong>稍微</strong>能扯上关系的给1。</li><li>比较<strong>接洽</strong>的给2。</li><li><strong>非常好</strong>的给3（很少发生）。</li></ul></li><li><p>“hs_consistency”: 一致性，pred的指向是否和input一致。</p><ul><li>有明确的<strong>相反内容</strong>给0。</li><li>没有相反，但是比较冗余，<strong>指向性不明确</strong>给1。</li><li>没有相反且<strong>指向性清晰</strong>的给2。</li><li><strong>非常恰题</strong>给3（很少发生）</li></ul></li><li><p>逻辑交叉部分</p><ul><li>如果是 relatedness 很低 (答非所问) 那么 consistency 的表现也不会好，可以考虑 consistency 给1。</li></ul></li></ol><blockquote><p>就是说我们认为relatedness是一种软的consistency。</p></blockquote><h2 id="项目日志"><a class="markdownIt-Anchor" href="#项目日志"></a> 项目日志</h2><h3 id="2020-12-29-星期二"><a class="markdownIt-Anchor" href="#2020-12-29-星期二"></a> 2020-12-29 星期二</h3><p>确定参与标注的任务，我的配额：</p><ul><li>200组 train set</li><li>100组 test set</li><li>1月4日完成</li><li>看时间，如果1月4日之后时间充裕，可以考虑增加</li><li>每300组提交一次</li></ul><h3 id="2020-01-01-星期五"><a class="markdownIt-Anchor" href="#2020-01-01-星期五"></a> 2020-01-01 星期五</h3><ul><li>整理项目日志</li><li>整理我的任务，固定工作流程</li><li>测算单位时间，辅助计划制定 (进行中)</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Project </category>
+          
+          <category> Collaboration </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 参考 </tag>
+            
+            <tag> Json </tag>
+            
+            <tag> 项目 </tag>
+            
+            <tag> 文本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Colorize Voronoi Diagram Template</title>
       <link href="2020/12/31/15-colorize-voronoi-diagram/"/>
       <url>2020/12/31/15-colorize-voronoi-diagram/</url>
