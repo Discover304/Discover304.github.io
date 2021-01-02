@@ -104,7 +104,7 @@ const getScript = url => new Promise((resolve, reject) => {
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2021-01-02 10:13:05'
+  postUpdate: '2021-01-02 10:15:00'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -129,7 +129,7 @@ const getScript = url => new Promise((resolve, reject) => {
       document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
     }
   }
-  const autoChangeMode = '1'
+  const autoChangeMode = 'false'
   const t = saveToLocal.get('theme')
   if (autoChangeMode === '1') {
     const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
