@@ -6,7 +6,7 @@
   <link href="http://discover304.github.io/atom.xml" rel="self"/>
   
   <link href="http://discover304.github.io/"/>
-  <updated>2021-01-10T02:26:52.276Z</updated>
+  <updated>2021-01-13T02:20:11.849Z</updated>
   <id>http://discover304.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>22-Agile-vs-Waterfall</title>
+    <link href="http://discover304.github.io/2021/01/13/22-agile-vs-waterfall/"/>
+    <id>http://discover304.github.io/2021/01/13/22-agile-vs-waterfall/</id>
+    <published>2021-01-13T02:11:59.000Z</published>
+    <updated>2021-01-13T02:20:11.849Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="what-is-waterfall-methodology"><a class="markdownIt-Anchor" href="#what-is-waterfall-methodology"></a> What is Waterfall methodology?</h2><p>Waterfall Model methodology which is also known as Liner Sequential Life Cycle Model. Waterfall Model followed in the sequential order, and so project development team only moves to next phase of development or testing if the previous step completed successfully.</p><h2 id="what-is-the-agile-methodology"><a class="markdownIt-Anchor" href="#what-is-the-agile-methodology"></a> What is the Agile methodology?</h2><p>Agile methodology is a practice that helps continuous iteration of development and testing in the software development process. In this model, development and testing activities are concurrent, unlike the Waterfall model. This process allows more communication between customers, developers, managers, and testers.</p><hr /><h2 id="waterfall-vs-agile-key-difference"><a class="markdownIt-Anchor" href="#waterfall-vs-agile-key-difference"></a> Waterfall vs Agile Key Difference</h2><ul><li>Waterfall is a Liner Sequential Life Cycle Model whereas Agile is a continuous iteration of development and testing in the software development process.</li><li>In Agile vs Waterfall difference, the Agile methodology is known for its flexibility whereas Waterfall is a structured software development methodology.</li><li>Comparing the Waterfall methodology vs Agile which follows an incremental approach whereas the Waterfall is a sequential design process.</li><li>Agile performs testing concurrently with software development whereas in Waterfall methodology testing comes after the “Build” phase.</li><li>Agile allows changes in project development requirement whereas Waterfall has no scope of changing the requirements once the project development starts.</li></ul><hr /><h2 id="advantages-of-waterfall-model"><a class="markdownIt-Anchor" href="#advantages-of-waterfall-model"></a> Advantages of Waterfall Model</h2><ul><li>It is one the easiest model to manage. Because of its nature, each phase has specific deliverables and a review process.</li><li>It works well for smaller size projects where requirements are easily understandable.</li><li>Faster delivery of the project</li><li>Process and results are well documented.</li><li>Easily adaptable method for shifting teams</li><li>This project management methodology is beneficial to manage dependencies.</li></ul><h2 id="advantages-of-the-agile-model"><a class="markdownIt-Anchor" href="#advantages-of-the-agile-model"></a> Advantages of the Agile Model</h2><ul><li>It is focused client process. So, it makes sure that the client is continuously involved during every stage.</li><li>Agile teams are extremely motivated and self-organized so it likely to provide a better result from the development projects.</li><li>Agile software development method assures that quality of the development is maintained</li><li>The process is completely based on the incremental progress. Therefore, the client and team know exactly what is complete and what is not. - This reduces risk in the development process.</li></ul><hr /><h2 id="limitations-of-waterfall-model"><a class="markdownIt-Anchor" href="#limitations-of-waterfall-model"></a> Limitations of Waterfall Model</h2><ul><li>It is not an ideal model for a large size project</li><li>If the requirement is not clear at the beginning, it is a less effective method.</li><li>Very difficult to move back to makes changes in the previous phases.</li><li>The testing process starts once development is over. Hence, it has high chances of bugs to be found later in development where they are expensive to fix.</li></ul><h2 id="limitations-of-agile-model"><a class="markdownIt-Anchor" href="#limitations-of-agile-model"></a> Limitations of Agile Model</h2><ul><li>It is not useful method for small development projects.</li><li>It requires an expert to take important decisions in the meeting.</li><li>Cost of implementing an agile method is little more compared to other development methodologies.</li><li>The project can easily go off track if the project manager is not clear what outcome he/she wants.</li></ul><p><a href="https://www.guru99.com/waterfall-vs-agile.html#:~:text=Below%20is%20a%20difference%20between%20Agile%20and%20Waterfall,completed%20a%20...%20%2012%20more%20rows%20"><strong>Original Link</strong></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;what-is-waterfall-methodology&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#what-is-waterfall-methodology&quot;&gt;&lt;/a&gt; What is Waterfall methodology</summary>
+      
+    
+    
+    
+    <category term="NoteBook" scheme="http://discover304.github.io/categories/NoteBook/"/>
+    
+    <category term="GeneralNote" scheme="http://discover304.github.io/categories/NoteBook/GeneralNote/"/>
+    
+    
+    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="知识" scheme="http://discover304.github.io/tags/%E7%9F%A5%E8%AF%86/"/>
+    
+    <category term="对比" scheme="http://discover304.github.io/tags/%E5%AF%B9%E6%AF%94/"/>
+    
+    <category term="笔记整理" scheme="http://discover304.github.io/tags/%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/"/>
+    
+    <category term="软件开发" scheme="http://discover304.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
   
   <entry>
     <title>UoE UG2 Inf Course Research</title>
@@ -682,36 +716,6 @@ json.dum</summary>
     <category term="记录" scheme="http://discover304.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
     <category term="Java" scheme="http://discover304.github.io/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这是我的第一篇文章</title>
-    <link href="http://discover304.github.io/2020/05/21/2-this_is_my_first_blog/"/>
-    <id>http://discover304.github.io/2020/05/21/2-this_is_my_first_blog/</id>
-    <published>2020-05-20T20:12:17.000Z</published>
-    <updated>2020-12-27T03:38:20.637Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li>没有什么好说的，很有趣呢。</li><li>希望未来风调码顺！</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;没有什么好说的，很有趣呢。&lt;/li&gt;
-&lt;li&gt;希望未来风调码顺！&lt;/li&gt;
-&lt;/ol&gt;
-</summary>
-      
-    
-    
-    
-    <category term="DailyLife" scheme="http://discover304.github.io/categories/DailyLife/"/>
-    
-    <category term="Normal" scheme="http://discover304.github.io/categories/DailyLife/Normal/"/>
-    
-    
-    <category term="纪念" scheme="http://discover304.github.io/tags/%E7%BA%AA%E5%BF%B5/"/>
     
   </entry>
   
