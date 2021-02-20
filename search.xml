@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>26-SEPP-Term-Collection</title>
+      <link href="2021/02/20/26-SEPP-term-collection/"/>
+      <url>2021/02/20/26-SEPP-term-collection/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Why Singleton Design Pattern Is Evil</title>
+      <link href="2021/02/16/25-Why-singleton-design%E2%80%94pattern-is-eval/"/>
+      <url>2021/02/16/25-Why-singleton-design%E2%80%94pattern-is-eval/</url>
+      
+        <content type="html"><![CDATA[<h2 id="key-discussion"><a class="markdownIt-Anchor" href="#key-discussion"></a> Key discussion</h2><p>Is the singleton design pattern an antipattern?</p><blockquote><p>The singleton pattern is controversial. Some people go so far as to say singletons are evil. Others have likened singletons to sharks; they cruise along unnoticed under the surface, then pop up and bite you. We’re going to argue that it is an antipattern to be avoided at all costs. There are only a few legitimate uses for it –– we’ll go over these, too.</p></blockquote><hr /><p>Negative side</p><ol><li>The singleton pattern is creational.</li><li>The biggest problem with the singleton pattern is that you assume there will only ever be one instance. This is a big assumption to make and often comes back to bite you. What you end up with is completely inflexible code.</li><li>Engineers often use singletons to provide a global access point. They are often used in place of a global variable that has a single instance. But most developers steer clear from global variables, and singletons should provoke the same response.</li><li>Singletons leave a trail of confusion</li><li>They inherently cause code to be tightly coupled. This makes faking them out under test rather difficult in many cases.</li><li>Singletons are bad when used with multi-threading because with just a single object, the options of threading are limited.</li><li>Singletons decrease performance.</li><li>more and more …</li></ol><hr /><p>Positive side</p><ol><li>A good standard when choosing to use a singleton or not is when having more than one instance is dangerous.</li><li>You need a logistical explanation for locking up the object.</li></ol><h2 id="other"><a class="markdownIt-Anchor" href="#other"></a> Other</h2><ol><li>There are three types of design patterns covered by the GoF: creational patterns, structural patterns, and behavioral patterns.</li></ol><h2 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h2><p><a href="https://dzone.com/articles/singleton-anti-pattern">https://dzone.com/articles/singleton-anti-pattern</a></p><p><a href="https://www.contentful.com/blog/2020/05/12/singleton-pattern-evil-or-misused/">https://www.contentful.com/blog/2020/05/12/singleton-pattern-evil-or-misused/</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Tabulation v.s. Recursion With Memory (Dynamic Programming)</title>
       <link href="2021/01/25/24-dynamic-programming/"/>
       <url>2021/01/25/24-dynamic-programming/</url>
@@ -35,9 +61,9 @@
       
         <tags>
             
-            <tag> 记录 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 记录 </tag>
             
             <tag> 整理 </tag>
             
@@ -68,11 +94,11 @@
             
             <tag> 学习 </tag>
             
-            <tag> 知识 </tag>
-            
             <tag> 对比 </tag>
             
             <tag> 笔记整理 </tag>
+            
+            <tag> 知识 </tag>
             
             <tag> 软件开发 </tag>
             
@@ -163,13 +189,13 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
-            <tag> 入门 </tag>
-            
             <tag> 积累 </tag>
             
+            <tag> 学习 </tag>
+            
             <tag> 扫盲 </tag>
+            
+            <tag> 入门 </tag>
             
         </tags>
       
@@ -198,9 +224,9 @@
             
             <tag> 资料 </tag>
             
-            <tag> 学习 </tag>
-            
             <tag> 积累 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -293,11 +319,11 @@
       
         <tags>
             
+            <tag> 积累 </tag>
+            
             <tag> 学习 </tag>
             
             <tag> Python </tag>
-            
-            <tag> 积累 </tag>
             
             <tag> 数据科学 </tag>
             
@@ -330,11 +356,11 @@
             
             <tag> 技术 </tag>
             
+            <tag> 积累 </tag>
+            
             <tag> 学习 </tag>
             
             <tag> Python </tag>
-            
-            <tag> 积累 </tag>
             
             <tag> 多进程 </tag>
             
@@ -373,11 +399,11 @@
             
             <tag> Python </tag>
             
-            <tag> 对比 </tag>
-            
             <tag> XML </tag>
             
             <tag> Json </tag>
+            
+            <tag> 对比 </tag>
             
         </tags>
       
@@ -406,11 +432,11 @@
             
             <tag> 技术 </tag>
             
+            <tag> 积累 </tag>
+            
             <tag> 学习 </tag>
             
             <tag> Python </tag>
-            
-            <tag> 积累 </tag>
             
         </tags>
       
@@ -439,11 +465,11 @@
             
             <tag> 技术 </tag>
             
+            <tag> 积累 </tag>
+            
             <tag> 学习 </tag>
             
             <tag> Python </tag>
-            
-            <tag> 积累 </tag>
             
             <tag> XML </tag>
             
@@ -544,9 +570,9 @@
             
             <tag> Python </tag>
             
-            <tag> 知识 </tag>
-            
             <tag> 对比 </tag>
+            
+            <tag> 知识 </tag>
             
             <tag> 答疑 </tag>
             
@@ -610,9 +636,9 @@
       
         <tags>
             
-            <tag> 经历 </tag>
-            
             <tag> 记录 </tag>
+            
+            <tag> 经历 </tag>
             
             <tag> Linux </tag>
             
@@ -645,15 +671,15 @@
             
             <tag> 技术 </tag>
             
+            <tag> Python </tag>
+            
+            <tag> 入门 </tag>
+            
             <tag> 读书 </tag>
             
             <tag> 新方法 </tag>
             
-            <tag> Python </tag>
-            
             <tag> 数据分析 </tag>
-            
-            <tag> 入门 </tag>
             
         </tags>
       
@@ -682,9 +708,9 @@
             
             <tag> 技术 </tag>
             
-            <tag> 经历 </tag>
-            
             <tag> 记录 </tag>
+            
+            <tag> 经历 </tag>
             
             <tag> Java </tag>
             
@@ -715,9 +741,9 @@
             
             <tag> 技术 </tag>
             
-            <tag> 经历 </tag>
-            
             <tag> 记录 </tag>
+            
+            <tag> 经历 </tag>
             
             <tag> Java </tag>
             
