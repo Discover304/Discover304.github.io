@@ -4,13 +4,33 @@
   
     
     <entry>
-      <title>30-RA-Note 施工中~</title>
+      <title>RA Lecture Note: Symbolic Planning 1 施工中~</title>
       <link href="2021/03/01/30-RA-Note/"/>
       <url>2021/03/01/30-RA-Note/</url>
       
-        <content type="html"><![CDATA[<h2 id="what-is-planning-and-why-we-need-new-method-to-find-a-plan"><a class="markdownIt-Anchor" href="#what-is-planning-and-why-we-need-new-method-to-find-a-plan"></a> what is planning and why we need new method to find a plan</h2><p>the first block of this course learnt about notation of agents, intelligent problem-solving, heuristic search, constraints, logic and logical reasoning, reasoning about actions and time, and in the future we will talk about planning and uncertainty, where change is the key topic in the second block of this course.</p><p>planning is the task of coming up with a sequence of actions what will achieve a goal, but we only considering classical planning, in which environments are fully observable, deterministic, finite, static, discrete, which is the simplest environment, and lifting some of these assumptions, raising a little more complex environment, will be the subject of the “uncertainty” part of the course.</p><p>search-based problem-solving agent and logical planning agents are not enough to achieve the goal in some or even most of planning problem, as the search-based problem solving agent has no goal-directness, has no problem decomposition into sub-goals that build on each other, which cause undo past achievements, has simple goal test doesn’t allow for the identification of milestones, besides, how to find a good heuristic function and how we model the way humans perceive complex goals and the quality of a plan are still mystery.</p><p>logical planning agents can solve some of questions we discussed with search-based problem-solving agent, its allow sub-goal and decompose big thing to smaller ones, but logic cannot give us a good proof or even a correct proof, and logically independent sub-goals may need to be undone to achieve other goals, this is a case that the solution stuck at local minimum, this is where non-linear planning being introduced, also I think laziness influence the solution, as there might be other solution if we switch two clauses joint by logic connector.</p><p>Both search and logic are important tools but need adapting to tackles: efficient search and inference and discriminating the variable quality of valid plans.</p><h2 id="what-is-pddl-and-what-it-consists-of"><a class="markdownIt-Anchor" href="#what-is-pddl-and-what-it-consists-of"></a> what is PDDL and what it consists of</h2><p><strong>Planning definition domain language (PDDL)</strong>, which is a language expressive enough to cover interesting problems, restrictive enough to allow efficient algorithms, and allow us express <strong>states</strong>, <strong>actions</strong> (edge) and <strong>goals</strong> (also a state).</p><p><strong>States</strong> are represented as conjunctions of <strong>propositional</strong> or <strong>function-free</strong> first order <strong>positive</strong> literals, and goal is a partial description of a state, in this case we get no restrictions which have applied to states.</p><p><strong>action</strong> or action schemata, as they may contain variables, include the  <strong>action name</strong>, a <strong>precondition</strong> description defines states in which action is executable, should be a conjunction of positive and negative literals, where all variables must occur in action name, and finally a <strong>effect</strong> description which defines how literals in the input state get changed and we assume that anything not mentioned remaining the same, it has same restriction as preconditions with an extra one, we need often to divide positive and negative effects into add list and delete list.</p><p>any action is <strong>applicable</strong> in any state that satisfies the precondition with an appropriate substitution for parameters.</p><p><strong>result</strong> of executing action a n state s in state s’ with any positive literal P in a’s effects added to the state and every negative literal not P removed form it, then <strong>solution</strong> is the action sequence that leads from the initial state to a state that satisfies the goal.</p><h2 id="some-free-words"><a class="markdownIt-Anchor" href="#some-free-words"></a> some free words</h2><p>serious choice on how to describe a world, in term of vocabulary of predicate symbols that you use, that can either make you job easy or difficult.</p><h2 id="lets-do-state-space-search"><a class="markdownIt-Anchor" href="#lets-do-state-space-search"></a> let’s do state-space search</h2><p>state-space search, search the space of states using action schemata, bi-direction search is possible, so there are two type of search: forward state-space search and backward state-space search.</p><p>Any complete graph search algorithm (like A*) will be a complete graph panning algorithm.</p><p>Forward search does not solve problem of irrelevant actions (all actions considered from each state).</p><p>Heuristic for state-space search, divide and conquer (subgoal decomposition) and derive a relaxed problem (remove some constraints) are two possibilities to design a heuristic function.</p><h2 id="lets-do-partial-order-planning"><a class="markdownIt-Anchor" href="#lets-do-partial-order-planning"></a> let’s do partial-order planning</h2><p>partial-order planning (POP), <strong>Actions</strong> initial Start and Finish, <strong>Ordering</strong> constraints, <strong>causal links</strong> not allows conflict occur, Open preconditions.</p><p>“partial” means we only focus on clauses that we think we need.</p><p>This is an algorithm highly benefit with graph.</p><h2 id="复习的时候加上图片固化一些模板"><a class="markdownIt-Anchor" href="#复习的时候加上图片固化一些模板"></a> 复习的时候加上图片，固化一些模板</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="复习的时候加上图片固化一些模板"><a class="markdownIt-Anchor" href="#复习的时候加上图片固化一些模板"></a> 复习的时候加上图片，固化一些模板</h2><h2 id="what-is-planning-and-why-we-need-new-method-to-find-a-plan"><a class="markdownIt-Anchor" href="#what-is-planning-and-why-we-need-new-method-to-find-a-plan"></a> what is planning and why we need new method to find a plan</h2><p>the first block of this course learnt about notation of agents, intelligent problem-solving, heuristic search, constraints, logic and logical reasoning, reasoning about actions and time, and in the future we will talk about planning and uncertainty, where change is the key topic in the second block of this course.</p><p>planning is the task of coming up with a sequence of actions what will achieve a goal, but we only considering classical planning, in which environments are fully observable, deterministic, finite, static, discrete, which is the simplest environment, and lifting some of these assumptions, raising a little more complex environment, will be the subject of the “uncertainty” part of the course.</p><p>search-based problem-solving agent and logical planning agents are not enough to achieve the goal in some or even most of planning problem, as the search-based problem solving agent has no goal-directness, has no problem decomposition into sub-goals that build on each other, which cause undo past achievements, has simple goal test doesn’t allow for the identification of milestones, besides, how to find a good heuristic function and how we model the way humans perceive complex goals and the quality of a plan are still mystery.</p><p>logical planning agents can solve some of questions we discussed with search-based problem-solving agent, its allow sub-goal and decompose big thing to smaller ones, but logic cannot give us a good proof or even a correct proof, and logically independent sub-goals may need to be undone to achieve other goals, this is a case that the solution stuck at local minimum, this is where non-linear planning being introduced, also I think laziness influence the solution, as there might be other solution if we switch two clauses joint by logic connector.</p><p>Both search and logic are important tools but need adapting to tackles: efficient search and inference and discriminating the variable quality of valid plans.</p><h2 id="what-is-pddl-and-what-it-consists-of"><a class="markdownIt-Anchor" href="#what-is-pddl-and-what-it-consists-of"></a> what is PDDL and what it consists of</h2><p><strong>Planning definition domain language (PDDL)</strong>, which is a language expressive enough to cover interesting problems, restrictive enough to allow efficient algorithms, and allow us express <strong>states</strong>, <strong>actions</strong> (edge) and <strong>goals</strong> (also a state).</p><p><strong>States</strong> are represented as conjunctions of <strong>propositional</strong> or <strong>function-free</strong> first order <strong>positive</strong> literals, and goal is a partial description of a state, in this case we get no restrictions which have applied to states.</p><p><strong>action</strong> or action schemata, as they may contain variables, include the  <strong>action name</strong>, a <strong>precondition</strong> description defines states in which action is executable, should be a conjunction of positive and negative literals, where all variables must occur in action name, and finally a <strong>effect</strong> description which defines how literals in the input state get changed and we assume that anything not mentioned remaining the same, it has same restriction as preconditions with an extra one, we need often to divide positive and negative effects into add list and delete list.</p><p>any action is <strong>applicable</strong> in any state that satisfies the precondition with an appropriate substitution for parameters.</p><p><strong>result</strong> of executing action a n state s in state s’ with any positive literal P in a’s effects added to the state and every negative literal not P removed form it, then <strong>solution</strong> is the action sequence that leads from the initial state to a state that satisfies the goal.</p><h2 id="some-free-words"><a class="markdownIt-Anchor" href="#some-free-words"></a> some free words</h2><p>serious choice on how to describe a world, in term of vocabulary of predicate symbols that you use, that can either make you job easy or difficult.</p><h2 id="lets-do-state-space-search"><a class="markdownIt-Anchor" href="#lets-do-state-space-search"></a> let’s do state-space search</h2><p>state-space search, search the space of states using action schemata, bi-direction search is possible, so there are two type of search: forward state-space search and backward state-space search.</p><p>Any complete graph search algorithm (like A*) will be a complete graph panning algorithm.</p><p>Forward search does not solve problem of irrelevant actions (all actions considered from each state).</p><p>Heuristic for state-space search, divide and conquer (subgoal decomposition) and derive a relaxed problem (remove some constraints) are two possibilities to design a heuristic function.</p><h2 id="lets-do-partial-order-planning"><a class="markdownIt-Anchor" href="#lets-do-partial-order-planning"></a> let’s do partial-order planning</h2><p>partial-order planning (POP), <strong>Actions</strong> initial Start and Finish, <strong>Ordering</strong> constraints, <strong>causal links</strong> not allows conflict occur, Open preconditions.</p><p>“partial” means we only focus on clauses that we think we need.</p><p>This is an algorithm highly benefit with graph.</p><h2 id="classical-planning-the-contingent-planning"><a class="markdownIt-Anchor" href="#classical-planning-the-contingent-planning"></a> classical planning, the contingent planning</h2><p>so far we only looked at classical planning, fully observable, static, deterministic. action descriptions are correct and compete. But unrealistic in many real-world applications. bounded, unbounded, conformant planning or sensorless, achieve goal in all possible circumstances. contingency planning, partially observable, non-deterministic environments, includes sensing actions and describes different paths for different circumstances. online planning and replanning, check whether plan requires revision during execution and replan accordingly.</p><p>percept schema models the agent’s sensors, Percept, precond, sensorless has no sensor and fully observable has no percept for a percept model.</p><p>PDDL conditional effect, when, if then else, “or”. acyclic, cyclic solutions, terminate with failure if circle occur, solved by add a branch back to the root. AND-OR graphs.</p>]]></content>
       
       
+      <categories>
+          
+          <category> University </category>
+          
+          <category> LectureNote </category>
+          
+          <category> Reasoning and Agent </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -197,6 +217,43 @@
             <tag> 整理 </tag>
             
             <tag> 软件工程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Professional Issues Note: Organisations</title>
+      <link href="2021/02/22/26-2-PI-Organisations/"/>
+      <url>2021/02/22/26-2-PI-Organisations/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> University </category>
+          
+          <category> LectureNote </category>
+          
+          <category> Software Engineering And Professional Practice </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 积累 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 系统 </tag>
+            
+            <tag> 整理 </tag>
+            
+            <tag> 评论 </tag>
             
         </tags>
       
