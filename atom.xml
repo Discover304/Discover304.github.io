@@ -6,7 +6,7 @@
   <link href="http://discover304.github.io/atom.xml" rel="self"/>
   
   <link href="http://discover304.github.io/"/>
-  <updated>2021-03-07T11:03:25.390Z</updated>
+  <updated>2021-03-10T02:37:50.750Z</updated>
   <id>http://discover304.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Week 5 Concepts and Categories</title>
+    <link href="http://discover304.github.io/2021/03/09/28-2-CG-Lecture-note/"/>
+    <id>http://discover304.github.io/2021/03/09/28-2-CG-Lecture-note/</id>
+    <published>2021-03-09T09:21:00.000Z</published>
+    <updated>2021-03-10T02:37:50.750Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>concepts</strong> as mental representations of classes objects or events. They determine how things are <strong>related</strong> or <strong>categorized</strong>.</p><p>concepts: improve cognitive economy, help us make useful predictions and generalizations, communicate.</p><p>cognitive economy: prototype theory,</p><p>classical theory, pros: intuitive, economical, definitions are easy to communicate, easy to check category membership against definition. cons: hard to find satisfactory definitions, borderline/debatable cases, <strong>typicality effects</strong>.</p><p>category membership isn’t always clear cut, not just that people have different clear-cut categories: There is within-subjects inconsistency.</p><p>Typicality effect: the classical theory predicts that typical and atypical category. it take longer for some gray concept or objects.</p><p>similarity and resemblance,</p><p><strong>prototype theory</strong>: categories are organized around a category prototype. <strong>averages</strong>. summary representation. category membership is similarity-based. categories under prototype view is “fuzzy”, with no clear cut distinction, and organized around typical properties or correlated attributes. regression model is an example.</p><p>alternative theory <strong>exemplar theory</strong>: A category is represented by list previously encountered exemplars new exemplars are compared to known exemplars – most similar item will influence classification the most. k-nn classifier is an example.</p><p>prototype treat category membership as classification of objects, exemplar treat category membership as a property to objects.</p><p>problem for similarity in general: Options can change the implicit similarity function, but Generalization does not depend on general-purpose similarity, typicality isn’t just a matter of (simple) similarity, Compositionality: Similarity-based approaches don’t give a good account of how categories should compose.</p><p>Theory-based view: theory theories: not only based on similarity, but also based on explanatory relationships. history. we learn categories faster when we understand wht the features go together.</p><p>relationship between categories: hierarchical structure</p><p>3 level model: the computation level, the algorithm level, the implementation level.</p><p>rational analysis: goals environment limitations optimization. Goals: prediction adn generalization, communication</p><p>optimization: local MAP (“maximum a posteriori”), pick the highest-probability inference. particle filters, guess how things should grouped. particle filter works very well.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;concepts&lt;/strong&gt; as mental representations of classes objects or events. They determine how things are &lt;strong&gt;related&lt;/strong&gt; </summary>
+      
+    
+    
+    
+    <category term="University" scheme="http://discover304.github.io/categories/University/"/>
+    
+    <category term="LectureNote" scheme="http://discover304.github.io/categories/University/LectureNote/"/>
+    
+    <category term="Cognitive Science" scheme="http://discover304.github.io/categories/University/LectureNote/Cognitive-Science/"/>
+    
+    
+    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="基础" scheme="http://discover304.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="知识" scheme="http://discover304.github.io/tags/%E7%9F%A5%E8%AF%86/"/>
+    
+    <category term="整理" scheme="http://discover304.github.io/tags/%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>RA Lecture Note: Symbolic Planning Continuous 施工中~</title>
@@ -185,40 +219,6 @@
       
     <summary type="html">&lt;h2 id=&quot;lecture-101-communication&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#lecture-101-communication&quot;&gt;&lt;/a&gt; Lecture 10.1 Communication&lt;/h2&gt;
 &lt;h3 i</summary>
-      
-    
-    
-    
-    <category term="University" scheme="http://discover304.github.io/categories/University/"/>
-    
-    <category term="LectureNote" scheme="http://discover304.github.io/categories/University/LectureNote/"/>
-    
-    <category term="Cognitive Science" scheme="http://discover304.github.io/categories/University/LectureNote/Cognitive-Science/"/>
-    
-    
-    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="基础" scheme="http://discover304.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
-    
-    <category term="知识" scheme="http://discover304.github.io/tags/%E7%9F%A5%E8%AF%86/"/>
-    
-    <category term="整理" scheme="http://discover304.github.io/tags/%E6%95%B4%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Week 5 Concepts and Categories</title>
-    <link href="http://discover304.github.io/2021/02/23/28-2-CG-Lecture-note/"/>
-    <id>http://discover304.github.io/2021/02/23/28-2-CG-Lecture-note/</id>
-    <published>2021-02-23T09:21:24.000Z</published>
-    <updated>2021-03-10T02:36:37.140Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>concepts</strong> as mental representations of classes objects or events. They determine how things are <strong>related</strong> or <strong>categorized</strong>.</p><p>concepts: improve cognitive economy, help us make useful predictions and generalizations, communicate.</p><p>cognitive economy: prototype theory,</p><p>classical theory, pros: intuitive, economical, definitions are easy to communicate, easy to check category membership against definition. cons: hard to find satisfactory definitions, borderline/debatable cases, <strong>typicality effects</strong>.</p><p>category membership isn’t always clear cut, not just that people have different clear-cut categories: There is within-subjects inconsistency.</p><p>Typicality effect: the classical theory predicts that typical and atypical category. it take longer for some gray concept or objects.</p><p>similarity and resemblance,</p><p><strong>prototype theory</strong>: categories are organized around a category prototype. <strong>averages</strong>. summary representation. category membership is similarity-based. categories under prototype view is “fuzzy”, with no clear cut distinction, and organized around typical properties or correlated attributes. regression model is an example.</p><p>alternative theory <strong>exemplar theory</strong>: A category is represented by list previously encountered exemplars new exemplars are compared to known exemplars – most similar item will influence classification the most. k-nn classifier is an example.</p><p>prototype treat category membership as classification of objects, exemplar treat category membership as a property to objects.</p><p>problem for similarity in general: Options can change the implicit similarity function, but Generalization does not depend on general-purpose similarity, typicality isn’t just a matter of (simple) similarity, Compositionality: Similarity-based approaches don’t give a good account of how categories should compose.</p><p>Theory-based view: theory theories: not only based on similarity, but also based on explanatory relationships. history. we learn categories faster when we understand wht the features go together.</p><p>relationship between categories: hierarchical structure</p><p>3 level model: the computation level, the algorithm level, the implementation level.</p><p>rational analysis: goals environment limitations optimization. Goals: prediction adn generalization, communication</p><p>optimization: local MAP (“maximum a posteriori”), pick the highest-probability inference. particle filters, guess how things should grouped. particle filter works very well.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;concepts&lt;/strong&gt; as mental representations of classes objects or events. They determine how things are &lt;strong&gt;related&lt;/strong&gt; </summary>
       
     
     
