@@ -6,7 +6,7 @@
   <link href="http://discover304.github.io/atom.xml" rel="self"/>
   
   <link href="http://discover304.github.io/"/>
-  <updated>2021-03-06T02:38:04.240Z</updated>
+  <updated>2021-03-07T11:03:25.390Z</updated>
   <id>http://discover304.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>RA Lecture Note: Symbolic Planning Continuous 施工中~</title>
+    <link href="http://discover304.github.io/2021/03/07/30-1-RA-Note/"/>
+    <id>http://discover304.github.io/2021/03/07/30-1-RA-Note/</id>
+    <published>2021-03-07T00:55:00.000Z</published>
+    <updated>2021-03-07T11:03:25.390Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="复习的时候加上图片固化一些模板"><a class="markdownIt-Anchor" href="#复习的时候加上图片固化一些模板"></a> 复习的时候加上图片，固化一些模板</h2><h2 id="tools-collection"><a class="markdownIt-Anchor" href="#tools-collection"></a> Tools Collection</h2><ul><li>Monitoring</li><li>Hierarchical planning</li><li>Hierarchical task network (HTN)</li><li>High level action (HLA)</li><li>refinement</li></ul><h2 id="template"><a class="markdownIt-Anchor" href="#template"></a> Template</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- refinements --&gt;</span><br><span class="line">Refinment(&#123;ActionName&#125;(variable1, variable2),</span><br><span class="line">    Precond: &#123;constraints&#125;</span><br><span class="line">    Steps: &#123;action list&#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure><h2 id="monitoring-and-replanning-in-unbounded-num-determinism"><a class="markdownIt-Anchor" href="#monitoring-and-replanning-in-unbounded-num-determinism"></a> Monitoring and replanning in unbounded num-determinism</h2><p>Execution monitoring includes action monitoring, plan monitoring.</p><h2 id="hierarchical-planning"><a class="markdownIt-Anchor" href="#hierarchical-planning"></a> Hierarchical Planning</h2><p>hierarchical decomposition, Hierarchical task network (HTN) planning: initial plan provided only high-level description, refined by action refinements. refinement process continued until plan consists only of primitive actions.</p><p>High level action (HLA) has (at least) one refinement into a sequence of actions. If they’re all primitive, then that’s an implementation of the HLA.</p><p>High-level Plans (HLP) are a sequence of HLAs. A HLP achieves the goal from an initial state if at least one of its implementations does this. Not all implementations of an HLP have to reach the goal state!</p><h2 id="search-for-a-valid-hlp"><a class="markdownIt-Anchor" href="#search-for-a-valid-hlp"></a> Search for a valid HLP</h2><p>breadth-first search refinement list.</p><h2 id="probability"><a class="markdownIt-Anchor" href="#probability"></a> Probability</h2><p>quantify uncertainty, degree of belief, degrees of tru[th.</p><p>decision theory, probability theory + utility theory.</p><p>maximum expected utility (expected value)</p><p>nothing special, all ideas has been discussed in logic class.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;复习的时候加上图片固化一些模板&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#复习的时候加上图片固化一些模板&quot;&gt;&lt;/a&gt; 复习的时候加上图片，固化一些模板&lt;/h2&gt;
+&lt;h2 id=&quot;tools-collection&quot;&gt;&lt;a class=</summary>
+      
+    
+    
+    
+    <category term="University" scheme="http://discover304.github.io/categories/University/"/>
+    
+    <category term="LectureNote" scheme="http://discover304.github.io/categories/University/LectureNote/"/>
+    
+    <category term="Reasoning and Agent" scheme="http://discover304.github.io/categories/University/LectureNote/Reasoning-and-Agent/"/>
+    
+    
+    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="笔记" scheme="http://discover304.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="人工智能" scheme="http://discover304.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>RA Lecture Note: Symbolic Planning 1 施工中~</title>
-    <link href="http://discover304.github.io/2021/03/01/30-RA-Note/"/>
-    <id>http://discover304.github.io/2021/03/01/30-RA-Note/</id>
+    <link href="http://discover304.github.io/2021/03/01/30-0-RA-Note/"/>
+    <id>http://discover304.github.io/2021/03/01/30-0-RA-Note/</id>
     <published>2021-03-01T06:30:49.000Z</published>
-    <updated>2021-03-06T02:38:04.240Z</updated>
+    <updated>2021-03-07T11:03:38.752Z</updated>
     
     <content type="html"><![CDATA[<h2 id="复习的时候加上图片固化一些模板"><a class="markdownIt-Anchor" href="#复习的时候加上图片固化一些模板"></a> 复习的时候加上图片，固化一些模板</h2><h2 id="tools-collection"><a class="markdownIt-Anchor" href="#tools-collection"></a> Tools Collection</h2><ul><li>search-based problem-solving agent</li><li>logic-based planning agent</li><li>Planning definition domain language (PDDL)</li><li>state-space search<ul><li>forward state-space search</li><li>backward state-space search</li></ul></li><li>plan-space search<ul><li>partial-order planning</li></ul></li></ul><h2 id="template"><a class="markdownIt-Anchor" href="#template"></a> Template</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- PDDL --&gt;</span><br><span class="line">Initial State: &#123;state&#125;</span><br><span class="line">Goal State: &#123;state&#125;</span><br><span class="line">Action(&#123;ActionName&#125;(variable1,variable2,...)</span><br><span class="line">    Precond:&#123;a conjunction, all positive&#125;,</span><br><span class="line">    Effect:&#123;a conjunction, can extend to disjunction and conditional&#125;)</span><br></pre></td></tr></table></figure><p>note: conditional effects are in the form: {<strong>when</strong> A: B}<br />note: conditional steps are in the form: {<strong>if</strong> A <strong>then</strong> B <strong>else</strong> C}<br />note: or in the form: {<strong>if</strong> A <strong>then</strong> B <strong>elseif</strong> C <strong>then</strong> D <strong>else</strong> E}</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- POP --&gt;</span><br><span class="line">Actions: &#123;list of names of actions&#125;</span><br><span class="line">Orderings: &#123;list of order constraints for actions, in form: A ≺ B&#125;</span><br><span class="line">Links: &#123;available progression form one action to another, in form: A-&gt;^p B&#125;</span><br><span class="line">Open preconditions: &#123;set of conditions not yet achieved&#125;</span><br></pre></td></tr></table></figure><p>note: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≺</mo></mrow><annotation encoding="application/x-tex">\prec</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">≺</span></span></span></span> is <code>\prec</code> by Tex, means: A must occur before B.<br />note: A -&gt;^p B is actually <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mover><mo stretchy="true">→</mo><mpadded width="+0.6em" lspace="0.3em"><mi>p</mi></mpadded></mover><mi>B</mi></mrow><annotation encoding="application/x-tex">A \xrightarrow{p} B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.934392em;vertical-align:-0.01100000000000001em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.923392em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="mord mathdefault mtight">p</span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.01100000000000001em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span></span></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- percept schema models --&gt;</span><br><span class="line">Percept(&#123;ActionName&#125;(variable1,variable2,...)</span><br><span class="line">    Precond: &#123;a conjunction, all positive&#125;)</span><br></pre></td></tr></table></figure><h2 id="what-is-planning-and-why-we-need-new-method-to-find-a-plan"><a class="markdownIt-Anchor" href="#what-is-planning-and-why-we-need-new-method-to-find-a-plan"></a> what is planning and why we need new method to find a plan</h2><p>the first block of this course learnt about notation of agents, intelligent problem-solving, heuristic search, constraints, logic and logical reasoning, reasoning about actions and time, and in the future we will talk about planning and uncertainty, where change is the key topic in the second block of this course.</p><p>planning is the task of coming up with a sequence of actions what will achieve a goal, but we only considering classical planning, in which environments are fully observable, deterministic, finite, static, discrete, which is the simplest environment, and lifting some of these assumptions, raising a little more complex environment, will be the subject of the “uncertainty” part of the course.</p><p><strong>search-based problem-solving agent</strong> and logical planning agents are not enough to achieve the goal in some or even most of planning problem, as the search-based problem solving agent has no goal-directness, has no problem decomposition into sub-goals that build on each other, which cause undo past achievements, has simple goal test doesn’t allow for the identification of milestones, besides, how to find a good heuristic function and how we model the way humans perceive complex goals and the quality of a plan are still mystery.</p><p><strong>logical planning agents</strong> can solve some of questions we discussed with search-based problem-solving agent, its allow sub-goal and decompose big thing to smaller ones, but logic cannot give us a good proof or even a correct proof, and logically independent sub-goals may need to be undone to achieve other goals, this is a case that the solution stuck at local minimum, this is where non-linear planning being introduced, also I think laziness influence the solution, as there might be other solution if we switch two clauses joint by logic connector.</p><p>Both search and logic are important tools but need adapting to tackles: efficient search and inference and discriminating the variable quality of valid plans.</p><h2 id="what-is-pddl-and-what-it-consists-of"><a class="markdownIt-Anchor" href="#what-is-pddl-and-what-it-consists-of"></a> what is PDDL and what it consists of</h2><p><strong>Planning definition domain language (PDDL)</strong>, which is a language expressive enough to cover interesting problems, restrictive enough to allow efficient algorithms, and allow us express <strong>states</strong>, <strong>actions</strong> (edge) and <strong>goals</strong> (also a state).</p><p><strong>States</strong> are represented as conjunctions of <strong>propositional</strong> or <strong>function-free</strong> first order <strong>positive</strong> literals, and goal is a partial description of a state, in this case we get no restrictions which have applied to states, besides, a state should be a closed-world assumption.</p><p><strong>action</strong> or action schemata, as they may contain variables, include the  <strong>action name</strong>, a <strong>precondition</strong> description defines states in which action is executable, should be a conjunction of positive and negative literals, where all variables must occur in action name, and finally a <strong>effect</strong> description which defines how literals in the input state get changed and we assume that anything not mentioned remaining the same, it has same restriction as preconditions with an extra one, we need often to divide positive and negative effects into add list and delete list.</p><p>any action is <strong>applicable</strong> in any state that satisfies the precondition with an appropriate substitution for parameters.</p><p><strong>result</strong> of executing action an state s in state s’ with any positive literal P in a’s effects added to the state and every negative literal not P removed from it, then <strong>solution</strong> is the action sequence that leads from the initial state to a state that satisfies the goal.</p><h2 id="some-free-words"><a class="markdownIt-Anchor" href="#some-free-words"></a> some free words</h2><p>serious choice on how to describe a world, in term of vocabulary of predicate symbols that you use, that can either make you job easy or difficult.</p><h2 id="lets-do-state-space-search"><a class="markdownIt-Anchor" href="#lets-do-state-space-search"></a> let’s do state-space search</h2><p>state-space search, search the space of states using action schemata, bi-direction search is possible, so there are two type of search: <strong>forward state-space search</strong> (also called progression planning) and <strong>backward state-space search</strong>.</p><p>Any complete graph search algorithm (like A*) will be a complete graph panning algorithm.</p><p>Forward search does not solve problem of irrelevant actions (all actions considered from each state).</p><p><strong>Heuristic for state-space search</strong>, <strong>divide and conquer</strong> (subgoal decomposition) and <strong>derive a relaxed problem</strong> (remove some constraints) are two possibilities to design a heuristic function.</p><h2 id="lets-do-partial-order-planning"><a class="markdownIt-Anchor" href="#lets-do-partial-order-planning"></a> let’s do partial-order planning</h2><p><strong>State-space search planning</strong> algorithms consider totally ordered sequences of actions.</p><p><strong>partial-order planning</strong> (POP), <strong>Actions</strong> initial Start and Finish, <strong>Ordering</strong> constraints, <strong>causal links</strong> not allows conflict occur, Open preconditions.</p><p>“partial” means we only focus on clauses that we think we need. Partial-order solution will correspond to one or several linearisation of partial-order plan.</p><p>Consistent plan = plan without cycles in orderings and conflicts with links. Solution = consistent plan without open preconditions. Every linearisation of a partial-order solution is a total-order solution (implications for execution!).</p><p>This is an algorithm highly benefit with graph.</p><h2 id="classical-planning-the-contingent-planning"><a class="markdownIt-Anchor" href="#classical-planning-the-contingent-planning"></a> classical planning, the contingent planning</h2><p>so far we only looked at classical planning, fully observable, static, deterministic. action descriptions are correct and compete. But unrealistic in many real-world applications. bounded, unbounded, conformant planning or sensorless, achieve goal in all possible circumstances. contingency planning, partially observable, non-deterministic environments, includes sensing actions and describes different paths for different circumstances. online planning and replanning, check whether plan requires revision during execution and replan accordingly.</p><p>percept schema models the agent’s sensors, Percept, precond, sensorless has no sensor and fully observable has no percept for a percept model.</p><p>PDDL conditional effect, when, if then else, “or”. acyclic, cyclic solutions, terminate with failure if circle occur, solved by add a branch back to the root. AND-OR graphs.</p>]]></content>
     
@@ -174,6 +207,40 @@
   </entry>
   
   <entry>
+    <title>Week 5 Concepts and Categories</title>
+    <link href="http://discover304.github.io/2021/02/23/28-2-CG-Lecture-note/"/>
+    <id>http://discover304.github.io/2021/02/23/28-2-CG-Lecture-note/</id>
+    <published>2021-02-23T09:21:24.000Z</published>
+    <updated>2021-03-10T02:36:37.140Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>concepts</strong> as mental representations of classes objects or events. They determine how things are <strong>related</strong> or <strong>categorized</strong>.</p><p>concepts: improve cognitive economy, help us make useful predictions and generalizations, communicate.</p><p>cognitive economy: prototype theory,</p><p>classical theory, pros: intuitive, economical, definitions are easy to communicate, easy to check category membership against definition. cons: hard to find satisfactory definitions, borderline/debatable cases, <strong>typicality effects</strong>.</p><p>category membership isn’t always clear cut, not just that people have different clear-cut categories: There is within-subjects inconsistency.</p><p>Typicality effect: the classical theory predicts that typical and atypical category. it take longer for some gray concept or objects.</p><p>similarity and resemblance,</p><p><strong>prototype theory</strong>: categories are organized around a category prototype. <strong>averages</strong>. summary representation. category membership is similarity-based. categories under prototype view is “fuzzy”, with no clear cut distinction, and organized around typical properties or correlated attributes. regression model is an example.</p><p>alternative theory <strong>exemplar theory</strong>: A category is represented by list previously encountered exemplars new exemplars are compared to known exemplars – most similar item will influence classification the most. k-nn classifier is an example.</p><p>prototype treat category membership as classification of objects, exemplar treat category membership as a property to objects.</p><p>problem for similarity in general: Options can change the implicit similarity function, but Generalization does not depend on general-purpose similarity, typicality isn’t just a matter of (simple) similarity, Compositionality: Similarity-based approaches don’t give a good account of how categories should compose.</p><p>Theory-based view: theory theories: not only based on similarity, but also based on explanatory relationships. history. we learn categories faster when we understand wht the features go together.</p><p>relationship between categories: hierarchical structure</p><p>3 level model: the computation level, the algorithm level, the implementation level.</p><p>rational analysis: goals environment limitations optimization. Goals: prediction adn generalization, communication</p><p>optimization: local MAP (“maximum a posteriori”), pick the highest-probability inference. particle filters, guess how things should grouped. particle filter works very well.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;concepts&lt;/strong&gt; as mental representations of classes objects or events. They determine how things are &lt;strong&gt;related&lt;/strong&gt; </summary>
+      
+    
+    
+    
+    <category term="University" scheme="http://discover304.github.io/categories/University/"/>
+    
+    <category term="LectureNote" scheme="http://discover304.github.io/categories/University/LectureNote/"/>
+    
+    <category term="Cognitive Science" scheme="http://discover304.github.io/categories/University/LectureNote/Cognitive-Science/"/>
+    
+    
+    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="基础" scheme="http://discover304.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="知识" scheme="http://discover304.github.io/tags/%E7%9F%A5%E8%AF%86/"/>
+    
+    <category term="整理" scheme="http://discover304.github.io/tags/%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Lecture 9 World Learning</title>
     <link href="http://discover304.github.io/2021/02/23/28-0-CG-Lecture-notre/"/>
     <id>http://discover304.github.io/2021/02/23/28-0-CG-Lecture-notre/</id>
@@ -246,12 +313,20 @@
   </entry>
   
   <entry>
-    <title>Professional Issues Note: Organisations</title>
+    <title>Professional Issues Note: Organisations 施工中~</title>
     <link href="http://discover304.github.io/2021/02/22/26-2-PI-Organisations/"/>
     <id>http://discover304.github.io/2021/02/22/26-2-PI-Organisations/</id>
     <published>2021-02-22T09:52:32.000Z</published>
-    <updated>2021-03-05T15:02:28.061Z</updated>
+    <updated>2021-03-07T00:58:24.009Z</updated>
     
+    <content type="html"><![CDATA[<p>绝赞偷懒中</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;绝赞偷懒中&lt;/p&gt;
+</summary>
+      
     
     
     
@@ -580,76 +655,6 @@
     <category term="渐近分析" scheme="http://discover304.github.io/tags/%E6%B8%90%E8%BF%91%E5%88%86%E6%9E%90/"/>
     
     <category term="算法" scheme="http://discover304.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>西湖大学对话评价-项目参考</title>
-    <link href="http://discover304.github.io/2021/01/01/16-%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E5%AF%B9%E8%AF%9D%E8%AF%84%E4%BB%B7-%E9%A1%B9%E7%9B%AE%E5%8F%82%E8%80%83/"/>
-    <id>http://discover304.github.io/2021/01/01/16-%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6%E5%AF%B9%E8%AF%9D%E8%AF%84%E4%BB%B7-%E9%A1%B9%E7%9B%AE%E5%8F%82%E8%80%83/</id>
-    <published>2020-12-31T23:31:09.000Z</published>
-    <updated>2021-01-07T09:38:55.336Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="项目概要"><a class="markdownIt-Anchor" href="#项目概要"></a> 项目概要</h2><p>机器人对话，根据上文得到下文这么个东西。推测也是使用滑窗来做的，但具体不清楚了。</p><h2 id="我的任务"><a class="markdownIt-Anchor" href="#我的任务"></a> 我的任务</h2><p>给 pred 进行打分，评分规则如下：</p><ol><li><p>打分区间都是0–3，0最差，3最好</p></li><li><p>“input”: 这个输入文本，有非常多的种类。</p></li><li><p>“gold”: 参考的解释，可以和 pred 比较得到分数。</p><ul><li>注意：gold只是一个参考，pred可以跟gold不同意思。</li></ul></li><li><p>“pred”: 预测出来的内容。</p></li><li><p>“hs_specificity”: 具体性，是否给出了具体的内容。</p><ul><li><strong>没有任何有价值的信息</strong>的给0，如I don’t know就可以给0。</li><li>有具体内容，但具体为虚的给1。</li><li>如果有表示<strong>具体事物</strong>的词给2。</li><li>2分档次特征<strong>出现次数大于2</strong>的都可以考虑给3。</li><li>注意：出现一些<strong>OOV可以看做是specificity的一种表现</strong>，比如 <code>I paid $ &lt;unk&gt; dollars already</code>。</li></ul></li><li><p>“hs_fluency”: pred 本身的属性，字面义，是否流畅。</p><ul><li>如果整体都很烂，尤其是<strong>有重复</strong>给0</li><li>如果有主要问题但整体上<strong>还算通顺</strong>给1。</li><li>基本流畅但有<strong>个别词的瑕疵</strong>一般给2。</li><li><strong>完全流畅</strong>的给3，比如I don’t know就给3。</li></ul></li><li><p>“hs_relatedness”: perd和input的相关性。</p><ul><li>完全<strong>无关</strong>的给0。</li><li><strong>稍微</strong>能扯上关系的给1。</li><li>比较<strong>接洽</strong>的给2 (想给3但是不确定的给2)。</li><li><strong>非常好</strong>的给3。</li></ul></li><li><p>“hs_consistency”: 一致性，pred的指向是否和input一致。</p><ul><li>有明确的方向性错误的给0。</li><li>没有相反，但是比较冗余，<strong>指向性不明确</strong>给1。</li><li>没有相反且<strong>指向性清晰</strong>的给2 (想给3但是不确定的给2)。</li><li><strong>非常恰题</strong>给3。</li></ul></li><li><p>逻辑交叉部分</p><ul><li>如果是 relatedness 很低 (答非所问) 那么 consistency 的表现也不会好，可以考虑 consistency 给1。consistency &lt;= relatedness</li><li>relatedness 和 consistency 的差别在一个是文字上的连接，一个是意思上的连接。(一个是躯壳，一个是灵魂)</li><li>pred 和 input 可以完全不相干，这个时候 relatedness 给 1 或者 2，consistency 给 2。</li></ul></li></ol><blockquote><p>就是说我们认为relatedness是一种软的consistency。</p></blockquote><h2 id="项目日志"><a class="markdownIt-Anchor" href="#项目日志"></a> 项目日志</h2><h3 id="2020-12-29-星期二"><a class="markdownIt-Anchor" href="#2020-12-29-星期二"></a> 2020-12-29 星期二</h3><p>确定参与标注的任务，我的配额：</p><ul><li>200组 train set</li><li>100组 test set</li><li>1月6日完成</li><li>看时间，如果1月4日之后时间充裕，可以考虑增加</li><li>每300组提交一次</li></ul><h3 id="2020-01-01-星期五"><a class="markdownIt-Anchor" href="#2020-01-01-星期五"></a> 2020-01-01 星期五</h3><ul><li>整理项目日志</li><li>整理我的任务，固定工作流程</li><li>测算单位时间，辅助计划制定 (进行中)</li></ul><h3 id="2020-01-04-星期一"><a class="markdownIt-Anchor" href="#2020-01-04-星期一"></a> 2020-01-04 星期一</h3><ul><li>完成200组 train set</li><li>因为 test set 已经标注完成，就不需要再标注了</li></ul><h3 id="2020-01-05-星期二"><a class="markdownIt-Anchor" href="#2020-01-05-星期二"></a> 2020-01-05 星期二</h3><ul><li>任务拆分, 分块解决</li><li>可以根据 specificity 和 fluency 拆分成不同的模块, 逐个击破<ul><li>涉及全部的 relatedness</li><li>涉及部分情况的 consistency</li></ul></li><li>完成55组 + 45个半组</li></ul><h3 id="2020-01-06-星期三"><a class="markdownIt-Anchor" href="#2020-01-06-星期三"></a> 2020-01-06 星期三</h3><ul><li>完成全部 300 组，好耶！</li><li>最后45个半组用时50分钟多一点</li><li>完美收官</li></ul><h2 id="小发现"><a class="markdownIt-Anchor" href="#小发现"></a> 小发现</h2><ul><li>relatedness 和 consistency 是有关系的，但是并不强，还是有很大的区别。</li><li>应该是个回答问题的 AI 模型，每一个 pred 都属于回应。</li><li>做这个文本标注已经不太像对于知识的检验了，像是在刨析自己，问自己对一个事情是怎样的看法。</li><li>有操作的呀，注意问题的拆分，这样可以针对性的进行流程优化。<ul><li>这里我们就可以把四个部分分别进行判断解决</li><li>基础: 读完一遍的文本第二次读会更快, 理解也更深</li><li>基础: 优化的时间比多出来的阅读时间更加多</li></ul></li><li>人在做一件事情的时候最耗费时间的不是事件/拆分后的小事情本身, 而是在不同的事件之间不停切换所需的思路调整<ul><li>而且, 大事是由一件一件完美的小事组合而成的, 不能一次性做到大事的完美, 但只要每一件小事都完美了就没问题了</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;项目概要&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#项目概要&quot;&gt;&lt;/a&gt; 项目概要&lt;/h2&gt;
-&lt;p&gt;机器人对话，根据上文得到下文这么个东西。推测也是使用滑窗来做的，但具体不清楚了。&lt;/p&gt;
-&lt;h2 id=&quot;我的任务&quot;&gt;&lt;a clas</summary>
-      
-    
-    
-    
-    <category term="Project" scheme="http://discover304.github.io/categories/Project/"/>
-    
-    <category term="Collaboration" scheme="http://discover304.github.io/categories/Project/Collaboration/"/>
-    
-    
-    <category term="参考" scheme="http://discover304.github.io/tags/%E5%8F%82%E8%80%83/"/>
-    
-    <category term="Json" scheme="http://discover304.github.io/tags/Json/"/>
-    
-    <category term="项目" scheme="http://discover304.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
-    
-    <category term="文本" scheme="http://discover304.github.io/tags/%E6%96%87%E6%9C%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Colorize Voronoi Diagram Template</title>
-    <link href="http://discover304.github.io/2020/12/31/15-colorize-voronoi-diagram/"/>
-    <id>http://discover304.github.io/2020/12/31/15-colorize-voronoi-diagram/</id>
-    <published>2020-12-31T06:53:14.000Z</published>
-    <updated>2021-02-21T04:19:12.211Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="stackoverflow"><a class="markdownIt-Anchor" href="#stackoverflow"></a> Stackoverflow</h2><p>Colorize Voronoi Diagram</p><p><a href="https://stackoverflow.com/questions/20515554/colorize-voronoi-diagram/20678647#20678647">https://stackoverflow.com/questions/20515554/colorize-voronoi-diagram/20678647#20678647</a></p><h2 id="ipython-cookbook-second-edition-2018"><a class="markdownIt-Anchor" href="#ipython-cookbook-second-edition-2018"></a> IPython Cookbook, Second Edition (2018)</h2><p>14.5. Computing the Voronoi diagram of a set of points</p><p><a href="https://ipython-books.github.io/145-computing-the-voronoi-diagram-of-a-set-of-points/">https://ipython-books.github.io/145-computing-the-voronoi-diagram-of-a-set-of-points/</a></p><h2 id="template"><a class="markdownIt-Anchor" href="#template"></a> template</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">from</span> scipy.spatial <span class="keyword">import</span> Voronoi, voronoi_plot_2d</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">normalizer</span>(<span class="params">dataArray</span>):</span></span><br><span class="line">    <span class="keyword">if</span> dataArray.<span class="built_in">max</span>() - dataArray.<span class="built_in">min</span>() == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> dataArray</span><br><span class="line">    <span class="keyword">return</span> (dataArray-dataArray.<span class="built_in">min</span>())/(dataArray.<span class="built_in">max</span>() - dataArray.<span class="built_in">min</span>())</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">comparisionPlot</span>(<span class="params">columnName0, columnName1, hueColumn, dataDf</span>):</span></span><br><span class="line">    <span class="comment"># add 4 distant dummy points to help coloring the edge</span></span><br><span class="line">    <span class="comment"># dataPoints = np.append((dataDfNormalized)[[&#x27;P-MEAN&#x27;, &#x27;RANK&#x27;]], [[2,2], [-2,2], [2,-2], [-2,-2]], axis = 0)</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># normal version</span></span><br><span class="line">    dataPoints = dataDf[[columnName0, columnName1]]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># plot Voronoi diagrame</span></span><br><span class="line">    vor = Voronoi(dataPoints)</span><br><span class="line">    voronoi_plot_2d(vor, show_vertices = <span class="literal">True</span>, point_size = <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># color list </span></span><br><span class="line">    colorList = []</span><br><span class="line">    <span class="keyword">for</span> regionIndex <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(vor.regions)):</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> -<span class="number">1</span> <span class="keyword">in</span> vor.regions[regionIndex]:</span><br><span class="line">            polygon = [vor.vertices[i] <span class="keyword">for</span> i <span class="keyword">in</span> vor.regions[regionIndex]]</span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">len</span>(polygon) == <span class="number">0</span>:</span><br><span class="line">                colorList += colorList[-<span class="number">1</span>:]</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            colorList += [np.array(polygon).transpose().<span class="built_in">min</span>()]</span><br><span class="line">        colorList += colorList[-<span class="number">1</span>:]</span><br><span class="line">    colorList = normalizer(np.array(colorList))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># colorize</span></span><br><span class="line">    <span class="keyword">for</span> regionIndex <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(vor.regions)):</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> -<span class="number">1</span> <span class="keyword">in</span> vor.regions[regionIndex]:</span><br><span class="line">            polygon = [vor.vertices[i] <span class="keyword">for</span> i <span class="keyword">in</span> vor.regions[regionIndex]]</span><br><span class="line">            plt.fill(*<span class="built_in">zip</span>(*polygon),color=np.repeat(colorList[regionIndex],<span class="number">3</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># fix the range of axes</span></span><br><span class="line">    plt.xlim([-<span class="number">0.2</span>,<span class="number">1.2</span>]), plt.ylim([-<span class="number">0.2</span>,<span class="number">1.2</span>])</span><br><span class="line"></span><br><span class="line">    plt.show()</span><br></pre></td></tr></table></figure><h2 id="question-answering"><a class="markdownIt-Anchor" href="#question-answering"></a> Question answering</h2><ol><li><p>What is the <code>*zip</code> in <strong>line 38</strong></p><p><code>*zip()</code> 函数是 <code>zip()</code> 函数的逆过程，将 <code>zip</code> 对象变成原先组合前的数据。</p> <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">zip</span>(*iterables)</span><br><span class="line">*<span class="built_in">zip</span>(*iterables)</span><br></pre></td></tr></table></figure></li><li><p>What is the <code>*polygon</code> in <strong>line 38</strong></p><p>Change polygon from interator to iterable @todo</p></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;stackoverflow&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#stackoverflow&quot;&gt;&lt;/a&gt; Stackoverflow&lt;/h2&gt;
-&lt;p&gt;Colorize Voronoi Diagram&lt;/p&gt;
-&lt;p&gt;&lt;a href</summary>
-      
-    
-    
-    
-    <category term="NoteBook" scheme="http://discover304.github.io/categories/NoteBook/"/>
-    
-    <category term="GeneralNote" scheme="http://discover304.github.io/categories/NoteBook/GeneralNote/"/>
-    
-    
-    <category term="积累" scheme="http://discover304.github.io/tags/%E7%A7%AF%E7%B4%AF/"/>
-    
-    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="Python" scheme="http://discover304.github.io/tags/Python/"/>
-    
-    <category term="数据科学" scheme="http://discover304.github.io/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
-    
-    <category term="图像" scheme="http://discover304.github.io/tags/%E5%9B%BE%E5%83%8F/"/>
     
   </entry>
   
