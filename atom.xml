@@ -6,7 +6,7 @@
   <link href="http://discover304.github.io/atom.xml" rel="self"/>
   
   <link href="http://discover304.github.io/"/>
-  <updated>2021-03-15T08:53:25.386Z</updated>
+  <updated>2021-03-26T14:09:55.170Z</updated>
   <id>http://discover304.github.io/</id>
   
   <author>
@@ -15,6 +15,90 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>32-Junit</title>
+    <link href="http://discover304.github.io/2021/03/26/32-Junit/"/>
+    <id>http://discover304.github.io/2021/03/26/32-Junit/</id>
+    <published>2021-03-26T13:07:51.000Z</published>
+    <updated>2021-03-26T14:09:55.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>todo</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;todo&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>31-Flask</title>
+    <link href="http://discover304.github.io/2021/03/26/31-Flask/"/>
+    <id>http://discover304.github.io/2021/03/26/31-Flask/</id>
+    <published>2021-03-26T13:06:45.000Z</published>
+    <updated>2021-03-26T14:08:05.888Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="what-is-flask"><a class="markdownIt-Anchor" href="#what-is-flask"></a> What is flask?</h2><ul><li>Python web application framework.</li></ul><h2 id="why-flask"><a class="markdownIt-Anchor" href="#why-flask"></a> Why flask?</h2><ul><li>lightweight</li><li>ability to scale up.</li></ul><h2 id="how-to-use-basic-functionality-of-flask"><a class="markdownIt-Anchor" href="#how-to-use-basic-functionality-of-flask"></a> How to use basic functionality of flask?</h2><h3 id="install-and-activation"><a class="markdownIt-Anchor" href="#install-and-activation"></a> Install and activation</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir myproject</span><br><span class="line">$ <span class="built_in">cd</span> myproject</span><br><span class="line">$ python3 -m venv venv</span><br><span class="line">$ . venv/bin/activate</span><br></pre></td></tr></table></figure><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">PS</span> C:\path\to\app&gt; py <span class="literal">-m</span> venv venv</span><br><span class="line"><span class="built_in">PS</span> C:\path\to\app&gt; venv\Scripts\activate</span><br></pre></td></tr></table></figure><h3 id="real-code-example"><a class="markdownIt-Anchor" href="#real-code-example"></a> Real code example</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask</span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/&#x27;</span></span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello_world</span>():</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;Hello, World!&#x27;</span></span><br></pre></td></tr></table></figure><h3 id="run-code"><a class="markdownIt-Anchor" href="#run-code"></a> Run code</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">export</span> FLASK_APP=hello.py</span><br></pre></td></tr></table></figure><figure class="highlight ps"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">PS</span> C:\path\to\app&gt; <span class="variable">$env:FLASK_APP</span> = <span class="string">&quot;hello.py&quot;</span></span><br></pre></td></tr></table></figure><!-- ``` cmdC:\path\to\app> set FLASK_APP=hello.py``` --><p>Then <code>flask run</code> or <code>python -m flask run</code>.</p><h2 id="any-helpful-points"><a class="markdownIt-Anchor" href="#any-helpful-points"></a> Any helpful points?</h2><ul><li>Make sure to not call your application <code>flask.py</code> because this would conflict with Flask itself.</li><li>If you have the debugger disabled or trust the users on your network, you can make the server publicly available simply by adding <code>--host=0.0.0.0</code> to the command line.</li></ul><h2 id="reference-material"><a class="markdownIt-Anchor" href="#reference-material"></a> Reference material.</h2><ul><li><a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#quickstart">https://flask.palletsprojects.com/en/1.1.x/quickstart/#quickstart</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;what-is-flask&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#what-is-flask&quot;&gt;&lt;/a&gt; What is flask?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python web application framework</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Software Engineering Terms Collection 3</title>
+    <link href="http://discover304.github.io/2021/03/16/26-3-sepp/"/>
+    <id>http://discover304.github.io/2021/03/16/26-3-sepp/</id>
+    <published>2021-03-16T09:52:32.000Z</published>
+    <updated>2021-03-26T13:08:48.453Z</updated>
+    
+    <content type="html"><![CDATA[<p>Lecture 13/14/15</p><p>VV&amp;C</p><p>Line coverage/ branch coverage</p><p>Bug tracking</p><p>review, static analysis</p><p>deploy</p><p>maintenance</p><p>DevOps, communication delay</p><p>Waterfall model, Spiral model, The Unified Process</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Lecture 13/14/15&lt;/p&gt;
+&lt;p&gt;VV&amp;amp;C&lt;/p&gt;
+&lt;p&gt;Line coverage/ branch coverage&lt;/p&gt;
+&lt;p&gt;Bug tracking&lt;/p&gt;
+&lt;p&gt;review, static analysis&lt;/p&gt;
+&lt;p&gt;deploy&lt;/</summary>
+      
+    
+    
+    
+    <category term="University" scheme="http://discover304.github.io/categories/University/"/>
+    
+    <category term="LectureNote" scheme="http://discover304.github.io/categories/University/LectureNote/"/>
+    
+    <category term="Software Engineering And Professional Practice" scheme="http://discover304.github.io/categories/University/LectureNote/Software-Engineering-And-Professional-Practice/"/>
+    
+    
+    <category term="积累" scheme="http://discover304.github.io/tags/%E7%A7%AF%E7%B4%AF/"/>
+    
+    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="系统" scheme="http://discover304.github.io/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="整理" scheme="http://discover304.github.io/tags/%E6%95%B4%E7%90%86/"/>
+    
+    <category term="软件工程" scheme="http://discover304.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>RA Lecture Note: </title>
@@ -555,107 +639,6 @@
     <category term="记录" scheme="http://discover304.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
     
     <category term="调查" scheme="http://discover304.github.io/tags/%E8%B0%83%E6%9F%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>拼图中的数据科学</title>
-    <link href="http://discover304.github.io/2021/01/10/20-%E6%8B%BC%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
-    <id>http://discover304.github.io/2021/01/10/20-%E6%8B%BC%E5%9B%BE%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/</id>
-    <published>2021-01-10T01:27:54.000Z</published>
-    <updated>2021-02-21T04:14:46.796Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="拼图筛选流程"><a class="markdownIt-Anchor" href="#拼图筛选流程"></a> 拼图筛选流程：</h2><ol><li>抓出一把拼图<ul><li>注：一把的数量允许动态得调整</li></ul></li><li>铺展在桌面上</li><li>并行对非字母信息筛选并处理<ul><li>优质连块拼图<ul><li>取出</li></ul></li><li>形状是边界拼图<ul><li>取出</li></ul></li><li>字母向下<ul><li>翻面</li></ul></li></ul></li><li>并行对字母信息筛选并处理<ul><li>相似字母XY<ul><li>收集</li></ul></li><li>相似字母不再出现<ul><li>取出</li></ul></li></ul><ul><li>注：随机查找n次无结果</li></ul><ul><li>边界拼图<ul><li>取出</li></ul></li><li>已出现过的字母<ul><li>取出</li></ul></li><li>最后一组字母<ul><li>相似字母X<ul><li>收集X</li></ul></li></ul></li></ul><ul><li>相似字母不再出现<ol><li>取出X</li><li>直接收集Y</li><li>取出Y</li><li>注：随机查找n次无结果</li></ol></li></ul><ul><li>注释：仅支持两只手，左手字母靠前，右手字母靠后</li><li>注释：XY集合的选择靠特征，可选的组合有：AH、BDCG、EF</li></ul></li></ol><h2 id="拼图拼接流程"><a class="markdownIt-Anchor" href="#拼图拼接流程"></a> 拼图拼接流程</h2><ol><li>筛选最外边</li><li>拼接里边</li><li>开始拼</li><li>拼接部分</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;拼图筛选流程&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#拼图筛选流程&quot;&gt;&lt;/a&gt; 拼图筛选流程：&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;抓出一把拼图
-&lt;ul&gt;
-&lt;li&gt;注：一把的数量允许动态得调整&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;铺</summary>
-      
-    
-    
-    
-    <category term="NoteBook" scheme="http://discover304.github.io/categories/NoteBook/"/>
-    
-    <category term="OtherNote" scheme="http://discover304.github.io/categories/NoteBook/OtherNote/"/>
-    
-    
-    <category term="数据科学" scheme="http://discover304.github.io/tags/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"/>
-    
-    <category term="小创意" scheme="http://discover304.github.io/tags/%E5%B0%8F%E5%88%9B%E6%84%8F/"/>
-    
-    <category term="游戏" scheme="http://discover304.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小型笔记整理</title>
-    <link href="http://discover304.github.io/2021/01/10/19-encyclopedia/"/>
-    <id>http://discover304.github.io/2021/01/10/19-encyclopedia/</id>
-    <published>2021-01-10T01:22:55.000Z</published>
-    <updated>2021-02-21T03:59:21.587Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="oop和aop"><a class="markdownIt-Anchor" href="#oop和aop"></a> OOP和AOP</h2><p>OOP面向对象编程，针对业务处理过程的实体及其属性和行为进行抽象封装，以获得更加清晰高效的逻辑单元划分。而AOP则是针对业务处理过程中的切面进行提取，它所面对的是处理过程的某个步骤或阶段，以获得逻辑过程的中各部分之间低耦合的隔离效果。这两种设计思想在目标上有着本质的差异</p><p><a href="https://www.jianshu.com/p/2d634f128d3e">https://www.jianshu.com/p/2d634f128d3e</a></p><p>AOP出现的更深层次的原因可能是java只能继承单一父类这个性质</p><h2 id="计算机竞赛"><a class="markdownIt-Anchor" href="#计算机竞赛"></a> 计算机竞赛</h2><ul><li>ACM</li><li>leetcode</li><li>牛客网</li><li>阿里云天池</li><li>谷歌云kaggle</li><li>华为杯数学建模</li></ul><h2 id="jupyter-notebook-installation"><a class="markdownIt-Anchor" href="#jupyter-notebook-installation"></a> Jupyter NoteBook Installation</h2><p><a href="https://www.jianshu.com/p/91365f343585">https://www.jianshu.com/p/91365f343585</a><br />在使用前一定要找配置文件，修改默认存储路径。</p><p>常规的情况下，Windows和Linux/macOS的配置文件所在路径和配置文件名如下所述：</p><ul><li>Windows系统的配置文件路径：C:\Users&lt;user_name&gt;.jupyter\</li><li>Linux/macOS系统的配置文件路径：/Users/&lt;user_name&gt;/.jupyter/ 或 ~/.jupyter/</li><li>配置文件名：jupyter_notebook_config.py</li></ul><h2 id="编码藏匿在计算机软硬件背后的语言读后感列表"><a class="markdownIt-Anchor" href="#编码藏匿在计算机软硬件背后的语言读后感列表"></a> 《编码：藏匿在计算机软硬件背后的语言》，读后感列表</h2><ol><li>haskell和lisp等函数式语言是非冯诺依曼结构的编程语言，这类语言的函数式特点才应该是人工智能需要的啊</li><li>电脑真的是一点一点造出来的</li><li>近代CPU技术都是在原有的基础系统的主线上添加，然后用驱动使用这些功能。</li><li>CPU更多是线性的计算，这在矩阵计算时非常吃亏。</li><li>控制，存储，寻址，计算</li><li>虎头蛇尾，最后这本书的思路有些混乱，应该是在凑字数。</li><li>方块波是一个基准</li><li>模拟计算机的设计还是令人着迷</li><li>傅立叶变换</li><li>量子计算机</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;oop和aop&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#oop和aop&quot;&gt;&lt;/a&gt; OOP和AOP&lt;/h2&gt;
-&lt;p&gt;OOP面向对象编程，针对业务处理过程的实体及其属性和行为进行抽象封装，以获得更加清晰高效的逻辑单元划分。而AOP则</summary>
-      
-    
-    
-    
-    <category term="NoteBook" scheme="http://discover304.github.io/categories/NoteBook/"/>
-    
-    <category term="OtherNote" scheme="http://discover304.github.io/categories/NoteBook/OtherNote/"/>
-    
-    
-    <category term="积累" scheme="http://discover304.github.io/tags/%E7%A7%AF%E7%B4%AF/"/>
-    
-    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="扫盲" scheme="http://discover304.github.io/tags/%E6%89%AB%E7%9B%B2/"/>
-    
-    <category term="入门" scheme="http://discover304.github.io/tags/%E5%85%A5%E9%97%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>音频特征提取 学习整理 施工中~</title>
-    <link href="http://discover304.github.io/2021/01/05/18-%E9%9F%B3%E9%A2%91%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/"/>
-    <id>http://discover304.github.io/2021/01/05/18-%E9%9F%B3%E9%A2%91%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/</id>
-    <published>2021-01-05T10:09:28.000Z</published>
-    <updated>2021-02-21T04:04:46.062Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="过零率-zcr-zero-crossing-rate"><a class="markdownIt-Anchor" href="#过零率-zcr-zero-crossing-rate"></a> 过零率, ZCR (zero-crossing rate)</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;过零率-zcr-zero-crossing-rate&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#过零率-zcr-zero-crossing-rate&quot;&gt;&lt;/a&gt; 过零率, ZCR (zero-crossing rate)&lt;/h2&gt;
-</summary>
-      
-    
-    
-    
-    <category term="NoteBook" scheme="http://discover304.github.io/categories/NoteBook/"/>
-    
-    <category term="GeneralNote" scheme="http://discover304.github.io/categories/NoteBook/GeneralNote/"/>
-    
-    
-    <category term="资料" scheme="http://discover304.github.io/tags/%E8%B5%84%E6%96%99/"/>
-    
-    <category term="积累" scheme="http://discover304.github.io/tags/%E7%A7%AF%E7%B4%AF/"/>
-    
-    <category term="学习" scheme="http://discover304.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
