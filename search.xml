@@ -4,7 +4,119 @@
   
     
     <entry>
-      <title>32-Junit</title>
+      <title>33-Gson 施工中~</title>
+      <link href="2021/04/03/33-Gson/"/>
+      <url>2021/04/03/33-Gson/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>17-4-Lecture28-Unsolvable-Problem</title>
+      <link href="2021/03/28/17-4-Lecture28-Unsolvable-problem/"/>
+      <url>2021/03/28/17-4-Lecture28-Unsolvable-problem/</url>
+      
+        <content type="html"><![CDATA[<p>Function is considered as different things for CS professionals and mathematicians. (piece of code and reflection)</p><p>Halting problem is one not CT computable.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> University </category>
+          
+          <category> LectureNote </category>
+          
+          <category> Introduction to Algorithms and Data Structures </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记整理 </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 语言处理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>17-3-Lecture27-Introduction-to-Computability-Theory</title>
+      <link href="2021/03/28/17-3-Lecture27-Introduction-to-Computability-Theory/"/>
+      <url>2021/03/28/17-3-Lecture27-Introduction-to-Computability-Theory/</url>
+      
+        <content type="html"><![CDATA[<p>Theoretical limit or no limit at all.<br />Church-Turing computable.<br />Register machines.<br />CT computable function class.</p><p>Universal machine.</p><h2 id="what-is-computability-theory"><a class="markdownIt-Anchor" href="#what-is-computability-theory"></a> What is computability theory?</h2><h2 id="how-computability-theory-evolve"><a class="markdownIt-Anchor" href="#how-computability-theory-evolve"></a> How computability theory evolve?</h2><h2 id="where-we-can-apply-computability-theory"><a class="markdownIt-Anchor" href="#where-we-can-apply-computability-theory"></a> Where we can apply computability theory?</h2><h2 id="any-helpful-ideas"><a class="markdownIt-Anchor" href="#any-helpful-ideas"></a> Any helpful ideas?</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> University </category>
+          
+          <category> LectureNote </category>
+          
+          <category> Introduction to Algorithms and Data Structures </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记整理 </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 语言处理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>17-2-Lecture25/26-Dealing-With-NP-Completeness</title>
+      <link href="2021/03/28/17-2-Lecture25-26-Dealing-with-NP-completeness/"/>
+      <url>2021/03/28/17-2-Lecture25-26-Dealing-with-NP-completeness/</url>
+      
+        <content type="html"><![CDATA[<h2 id="why-we-want-to-deal-with-np-completeness"><a class="markdownIt-Anchor" href="#why-we-want-to-deal-with-np-completeness"></a> Why we want to deal with NP completeness?</h2><h2 id="how-can-we-achieve-this-goal"><a class="markdownIt-Anchor" href="#how-can-we-achieve-this-goal"></a> How can we achieve this goal?</h2><p>Heuristic</p><dl><dt>approximate solution</dt><dd>What’s the fairly good solution (maximum or minimum) to some question. Approximation ratio is the key to describe how good an approximation is.</dd><dt>Brute-force methods</dt><dd>In exponential-time.</dd><dt>recursive backtracking</dt><dd>For 3-SAT problem.</dd></dl><h2 id="what-is-the-most-important-thought-behind-these-dealing-methods"><a class="markdownIt-Anchor" href="#what-is-the-most-important-thought-behind-these-dealing-methods"></a> What is the most important thought behind these dealing methods?</h2><h2 id="any-helpful-things"><a class="markdownIt-Anchor" href="#any-helpful-things"></a> Any helpful things?</h2><h2 id="additional-information"><a class="markdownIt-Anchor" href="#additional-information"></a> Additional information</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> University </category>
+          
+          <category> LectureNote </category>
+          
+          <category> Introduction to Algorithms and Data Structures </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记整理 </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 语言处理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>32-Junit 施工中~</title>
       <link href="2021/03/26/32-Junit/"/>
       <url>2021/03/26/32-Junit/</url>
       
@@ -17,7 +129,7 @@
     
     
     <entry>
-      <title>31-Flask</title>
+      <title>31-Flask 施工中~</title>
       <link href="2021/03/26/31-Flask/"/>
       <url>2021/03/26/31-Flask/</url>
       
