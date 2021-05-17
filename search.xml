@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>35-IADS-Term-Collection</title>
+      <link href="2021/05/17/35-IADS-term-collection/"/>
+      <url>2021/05/17/35-IADS-term-collection/</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>Insert-sort</p></li><li><p>Merge-sort</p></li><li><p>Clone</p></li><li><p>Deep clone</p></li><li><p>Dealing with clash of hash code</p></li><li><p>HeapSort</p></li><li><p>Quick sort</p></li><li><p>Tim sort</p></li><li><p>Breadth-first sort</p></li><li><p>Depth-first sort</p></li><li><p>Topological sort</p></li><li><p>Tabulation</p></li><li><p>Memory</p></li><li><p>Seam-Carving</p></li><li><p>Edit Distance</p></li><li><p>Finite State Machine</p></li><li><p>Hidden Markov Models (HMMs)</p></li><li><p>The CYK algorithm</p></li><li><p>LL(1) Predictive parsing</p></li><li></li><li><p>Stack</p></li><li><p>Queue</p></li><li><p>Heap</p></li><li><p>Array</p></li><li><p>Fixed-size array</p></li><li><p>Extensible array</p></li><li><p>Linked list</p></li><li><p>Set</p></li><li><p>Dictionary</p></li><li><p>Hash table</p></li><li><p>Balanced tree</p></li><li><p>Red-black tree</p></li><li><p>Graph</p></li><li><p>Syntax tree</p></li><li></li><li><p>Asymptotic notation</p></li><li><p>Amortized cost</p></li><li><p>Divide and conquer</p></li><li><p>Master theorem</p></li><li><p>Dynamic programming</p></li><li><p>Nondeterministic polynomial (NP)</p></li><li><p>NP-completeness</p></li><li></li></ul><ul><li>Context-free grammar (CFG)</li><li>Context-sensitive rule</li><li>Sentential form</li><li>Chomsky normal form</li><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> University </category>
+          
+          <category> LectureNote </category>
+          
+          <category> Introduction to Algorithms and Data Structures </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记整理 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AIMA Practical Note 1</title>
       <link href="2021/04/26/34-AIMA-Reading-Note-1/"/>
       <url>2021/04/26/34-AIMA-Reading-Note-1/</url>
